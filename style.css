@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* part 1 */
+.part-1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.part-1 .website-name {
+    font-size: xx-large;
+    font-family: 'Sono', sans-serif;
+}
+
+.part-1 .link {
+    font-size: x-large;
+    cursor: pointer;
+
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+}
+.btn button {
+    padding: 10px;
+    background-color: white;
+    border: red 1px solid;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#sign-in {
+    color: red;
+}
+
+#sign-up {
+    background-color: red;
+    color: white;
+}
+
+/* heading */
+.heading {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.heading .left-part .title h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+}
+.left-part{
+    padding-top: 200px;
+}
+.sub-title{
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.input input{
+    padding: 10px;
+    width: 160px;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid red;
+    margin-right: 0px;
+}
+.input button{
+    padding: 10px;
+    width: 90px;
+    border-radius: 0px 10px 10px 0px;
+    border: 1px solid red;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}
+
+/* part 2 */
+.part-2{
+    margin-top: 100px;
+}
+.part-2 .title{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.part-2 .sub-title{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.box-item{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    column-gap: 20px;
+    row-gap: 10px;
+    margin: auto;
+}
+.item img{
+    border-radius: 5px;
+}
+.item p{
+    color: red;
+    font-family: 'Sono', sans-serif;
+}
+/*part 3*/
+.part-3 .topping{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+.list{
+    margin: auto;
+    width: 90%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.list-item p{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* part 4 */
+.contact .title{
+    margin-top: 100px;
+    text-align:center ;
+}
+.form{
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+.inp input{
+    padding: 10px;
+    width: 180px;
+}
+
