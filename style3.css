@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600;700;800&display=swap');
+
+/* part 1  */
+.part-1 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    width: 85%;
+    margin: auto;
+}
+
+.part-1 .website-name {
+    font-size: xx-large;
+    font-family: 'Sono', sans-serif;
+}
+
+.part-1 .link {
+    font-size: x-large;
+    cursor: pointer;
+
+}
+.part-1 .website-name h4{
+    margin-top: 0
+    ;
+}
+a {
+    text-decoration: none;
+    padding: 5px;
+}
+.btn button {
+    padding: 10px;
+    background-color: white;
+    border: red 1px solid;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#sign-in {
+    color: red;
+}
+
+#sign-up {
+    background-color: red;
+    color: white;
+}
+.header-image img{
+    width: 100%;
+}
+.header-image{
+    width: 85%;
+    margin: auto;
+    margin-bottom:50px ;
+}
+/* second */
+.second{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.product{
+    display: grid;
+    grid-template-columns: repeat(3,2fr
+    );
+}
