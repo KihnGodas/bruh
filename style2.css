@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600;700;800&display=swap');
+/* part 1 */
+.part-1 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    width: 85%;
+    margin: auto;
+}
+
+.part-1 .website-name {
+    font-size: xx-large;
+    font-family: 'Sono', sans-serif;
+}
+
+.part-1 .link {
+    font-size: x-large;
+    cursor: pointer;
+
+}
+.part-1 .website-name h4{
+    margin-top: 0
+    ;
+}
+a {
+    text-decoration: none;
+    padding: 5px;
+}
+.btn button {
+    padding: 10px;
+    background-color: white;
+    border: red 1px solid;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#sign-in {
+    color: red;
+}
+
+#sign-up {
+    background-color: red;
+    color: white;
+}
+/* heading */
+.heading{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 30px;
+}
+.header{
+    width: 50%;
+}
+.heading .header h1{
+    font-size: 50px;
+    margin-top: 0 ;
+}
+.quantity input{
+    padding: 5px;
+
+}
+.quantity button{
+    padding: 5px;
+    margin-left:10px;
+    background-color: black;
+    color: white;
+    border: 1px solid;
+}
+.picture img{
+    height: 110%;
+    width: 100%;
+}
+/* related product */
+.related-product{
+    margin-top: 100px;
+    width: 90%;
+    margin: auto;
+}
+.product-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
